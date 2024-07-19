@@ -1,0 +1,104 @@
+Api - Aplication Programming Interface
+	  Interface de Programação de Aplicativos
+
+	 api's
+	 requisições e status code
+	 JSON
+	 estrutura de pastas
+	 		  FullStack
+	 Front-end/back-end/bancodedados
+
+	 Frontend se comunica com o banco de dados, precisa.
+	 So que nao acessa diretamente
+	 pra chegar no bacno de dados ele passa pela API
+
+	 intermediario entre frontend e o banco de dados
+
+	 Comunicação entre api e front end é feita atraves de requisição(peidods)
+
+	 Requisições
+		 GET	pedido para listar inf
+		 post	cadastro de info
+		 put editar informação
+		 delete	deletar informação
+
+		 toda requisição devolve um codigo 3 digitos(200 - ok)
+
+		 Status code: codigo 3 digitos(da pra saber o que ta acontecendo atraves dele)
+
+		 Status code Comuns:
+		 	200-299: OK, sucesso, bem sucedida
+
+		 Erros
+		 	400-499 = Erro no lado do cliente
+		 	500-599 = erro no lado servidor
+
+		 	400 - Bad Request(requisição inválida)
+		 	404 - Not Found(rota de requisição ñ encontrou nada)
+		 	500 - Internal Server Error Ero na API(Servidor)
+
+	JSON
+		Java ScriptObeject Notation ou JSON
+			comunicação entre front e back-end
+
+		se baseia no formato chave: valor
+			onde eu vou guardar: o que eu vou guardar
+		linguagem comum entre front e o back
+
+		front manda JSON
+		back manda JSON
+
+		lista []
+		Objetos {} ex.: produtos
+
+
+		contexts
+			informações do banco de dados
+			Conexao
+			Qual banco
+			Onde tá?
+
+		Controllers
+			rotas da aplicação
+			porta de entrada(que recebe as requisições do front end)
+			URL
+
+
+		Models
+			classes modelo
+			o que uma venda
+			classe cliente
+			o que um projeto
+				como se fosse os atributos das A0PI's
+
+		Repositories
+			métodos que interagem com o banco de dados
+			guarda os metodos que interagem com banco de dados
+			repositorio conversa com contexto pra poder acessar os banco
+
+			o controle conversa com o repositories
+
+[09:35] Vinicio Oliveira Santos
+Patch - Editar
+ 
+
+EXTENSOES
+	C#
+C# Extensions - JosKreativ
+C# Snippets
+C3 DEV KIT
+
+TESTE INSONIA POSTMAN
+
+DOT NET 6 
+
+VISUAL STUDIO COMMUNITY
+
+Download - Insomnia
+
+.NET Downloads (Linux, macOS, and Windows) (microsoft.com)
+
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
+
+https://http.cat/
